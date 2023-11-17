@@ -1,0 +1,24 @@
+.admin_wrapper{
+    margin:0;
+    margin-left:20%;
+}
+
+.admin_name{
+    margin:0;
+}
+.admin_position {
+    margin: 0;
+}
+
+.admin_image{
+    border-radius: 15px;
+}
+
+.team_heading{
+    margin: 20px;
+}
+
+.team_content{
+    margin-top: -15%;
+    text-align: right;
+}

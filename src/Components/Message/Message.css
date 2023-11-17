@@ -1,0 +1,34 @@
+.founder{
+    margin-top:40% ;
+    margin-left: 20%;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.founder_name{
+    font-size: 15px;
+    margin: 0;
+    margin-left: 3%;
+}
+
+.founder_role{
+    font-size: 12px;
+    margin: 0;
+}
+.founder_title{
+white-space: nowrap;
+}
+.role{
+    margin:0;
+    margin-left: 3%;
+}
+
+.image{
+    margin-top:15%;
+        margin-left: 20%;
+}
+
+.facility_card{
+    background-color: #fff;
+    border: none;
+}

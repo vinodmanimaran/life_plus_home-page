@@ -1,0 +1,81 @@
+.slot_doctor_img{
+    margin:50px;
+    width: 80px;
+    margin-top: -70px;
+    margin-left: -10px;
+    border-radius: 15px;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.slot_doctor_name{
+    margin-left: 15%;
+    margin-top: -160px;
+}
+.slot_doctor_role_details{
+    margin-left: 15%;
+}
+.slot_doctor_role{
+    margin: 0;
+}
+.slot_container{
+    margin: 50px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.line_br{
+    margin: 50px;
+    width: 954px;
+    margin-left: 1%;
+        margin-left: -2%;
+}
+.slot_time{
+    margin-left:80%;
+    margin-top: -70px;
+        font-weight: bold;
+        color: black;
+        white-space: nowrap;
+}
+.slot_date {
+    margin-left:10px;
+    color: black;
+        font-weight: bold;
+}
+.slot_clinic_img{
+    width: 150px;
+    margin-top: -10px;
+}
+.redirect_slot{
+    margin: 5%;
+    color: green;
+            font-weight: bold;
+            cursor: pointer;
+}
+.get_back_page{
+    color: green;
+    margin: 5%;
+        font-weight: bold;
+        cursor: pointer;}
+.get_back{
+    margin-top: -20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+.slot_directions{
+        color: green;
+            font-weight: bold;
+            cursor:pointer;
+}
+.clinic_address{
+    margin-left: 20%;
+    margin-top: -100px;
+    white-space: nowrap;
+}
+
+
+.tab_heading{
+    margin: 30px;
+    font-weight:bold;
+}

@@ -1,0 +1,294 @@
+.heading__wrapper {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .heading__wrapper {
+        width: 100%;
+    }
+
+    .heading__wrapper .heading__content {
+        text-align: center;
+        padding: 10px 15px;
+    }
+}
+
+.horizontal_scroll {
+    padding: 1rem 4rem;
+    position: relative;
+}
+
+.col-12,
+.col-9,
+.col-md-4,
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.surgery_QA {
+    padding-bottom: 20px;
+}
+
+.surgery_FQA_box {
+    padding: 0 80px;
+}
+
+.surgery_QA .options_container {
+    padding: 0;
+}
+
+.surgery_QA .options {
+    padding: 1rem 3rem 1rem 1rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.get_to_know_div .drop-message-button {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.surgery_QA .options .type_based_content_container {
+    display: none;
+    min-width: auto;
+    margin: 0;
+}
+
+.surgery_QA .options.active {
+    cursor: default;
+}
+
+.surgery_QA .options .cross_box {
+    border-radius: 40px;
+    position: absolute;
+    right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 16px 0;
+    border: 0;
+    background: #fff;
+}
+
+.surgery_QA .surgery_FQA_box .section_heading {
+    margin: 40px 0 42px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #505257;
+    opacity: 1;
+}
+
+.surgery_QA .options .faq_question {
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0;
+    width: 80%;
+    line-height: 24px;
+    opacity: 1;
+    color: #505257;
+    margin: revert;
+}
+
+.get_to_know_div {
+    display: none;
+    width: 100%;
+    height: auto;
+    background: #f99e48 0 0 no-repeat padding-box;
+    opacity: 1;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+
+.question_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.surgery_QA .surgery_FQA_box .faq_section_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #505257;
+    opacity: 1;
+}
+
+.surgery_QA .options {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #e5ebef;
+}
+
+.surgery_QA .options .type_based_content_container {
+    padding: 0;
+}
+
+.surgery_QA .options.active .type_based_content_container {
+    display: block;
+    background: 0 0;
+    width: 100%;
+}
+
+.surgery_QA .options.inactive .type_based_content_container {
+    display: none;
+    background: 0 0;
+}
+
+.surgery_QA .options .cross_box .expand_icon {
+    width: 13.5px;
+    height: 13.5px;
+}
+
+.surgery_QA .options .type_based_content_container p,
+.surgery_QA .options .type_based_content_container ul li {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #727983;
+    opacity: 1;
+}
+
+.surgery_QA .options .type_based_content_container p {
+    padding-bottom: 15px;
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.surgery_QA .options .type_based_content_container ul li {
+    list-style-type: disc;
+}
+
+.title_treatment .surgery_treatment.box1 .type_based_content_container ul li {
+    list-style-type: disc;
+}
+
+.surgery_QA .view-more-button {
+    margin-top: 20px;
+}
+
+.surgery_QA .view-more-text {
+    width: auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .surgery_FQA_box {
+        padding: 0 15px;
+    }
+
+    .get_to_know_div {
+        height: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .surgery_QA {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .surgery_FQA_box,
+    .surgery_QA .font_size1 {
+        padding: 0;
+    }
+
+    .surgery_QA .options .type_based_content_container p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .surgery_QA .options_container {
+        display: block;
+        padding: 0;
+    }
+
+    .surgery_QA .options .type_based_content_container {
+        min-width: auto;
+        margin: auto;
+    }
+
+    .surgery_QA .options {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .surgery_QA .options p {
+        text-align: left;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+
+    .surgery_QA .surgery_FQA_box .section_heading {
+        margin: 22px;
+        font-size: 24px;
+        line-height: 33px;
+        color: #505257;
+    }
+
+    .surgery_QA .options .faq_question {
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0;
+        color: #505257;
+        width: 80%;
+    }
+
+    .question_div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .surgery_QA .options .type_based_content_container {
+        padding: 0;
+    }
+
+    .surgery_QA .options.active .type_based_content_container {
+        display: block;
+        background: 0 0;
+    }
+
+    .surgery_QA .options.inactive .type_based_content_container {
+        display: none;
+        background: 0 0;
+    }
+
+    .surgery_QA .options .cross_box .expand_icon {
+        width: 13.5px;
+        height: 13.5px;
+    }
+
+    .faw_container_wrapper {
+        width: calc(min(1600px, 90vw));
+        margin: auto;
+    }
+
+    .col-12,
+    .col-9,
+    .col-md-4,
+    .col-md-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.container_heading{
+    white-space: nowrap;
+}

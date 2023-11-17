@@ -1,0 +1,212 @@
+.availability {
+  /* height: 5rem; */
+  margin-top: 2rem;
+}
+
+.location {
+  background: #f2f3f2;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  border-radius: 10px;
+  height: 3rem;
+}
+
+.location input {
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  height: 3rem;
+  padding-left: 1.7rem;
+}
+
+.location span {
+  position: absolute;
+  margin-top: 0.7rem;
+  margin-left: 0.4rem;
+}
+
+.dr-name-search {
+  background: #f2f3f2;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  border-radius: 10px;
+  height: 3rem;
+}
+
+.dr-name-search input {
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  height: 3rem;
+  padding-left: 1.7rem;
+}
+
+.dr-name-search span {
+  position: absolute;
+  margin-top: 0.7rem;
+  margin-left: 0.4rem;
+}
+
+.dr-search-btn button {
+  border-style: none;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 17px;
+  background: var(--RED, #c51c22);
+  color: #fff;
+}
+
+/* Filter Section*/
+.filter-conatiner {
+  margin-top: 3rem;
+  background: #f2f3f2;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  height: 4rem;
+}
+
+.filter-content {
+  height: 4rem;
+}
+
+.filter-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter-dropdown {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.filter-name {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-name h6 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.main-box {
+  background: #f2f3f2;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  border-radius: 10px;
+  height: 100vh;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.search-result {
+  margin: 2rem 2rem 0rem 2rem;
+}
+
+.line {
+  border: 1px solid black;
+  opacity: 0.3;
+}
+
+.dr-detailes {
+  margin: 1rem;
+  background: #d9dbd9;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+}
+
+.dr-profile {
+  margin-top: 0.7rem;
+}
+
+.dr-full-detailes {
+  margin-top: 0.5rem;
+}
+
+.other-dr-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.dr-view-appoinment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.dr-view-appoinment-btn button {
+  border-style: none;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 17px;
+  background: var(--RED, #c51c22);
+  color: #fff;
+}
+
+.available-today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.available-today p {
+  color: rgb(72, 233, 72);
+}
+
+/* Side box */
+.side-box {
+  background: #f2f3f2;
+  box-shadow: 3px 3px 8px 0px rgba(174, 175, 174, 0.9),
+    -3px -3px 6px 0px rgba(255, 255, 255, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  border-radius: 10px;
+  height: 100vh;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-div {
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+  height: 15rem;
+  width: 22rem;
+}
+
+.details{
+  width: 2000px;
+  margin-right: 0;
+  margin: 20px;
+}

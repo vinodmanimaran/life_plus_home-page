@@ -1,0 +1,160 @@
+                        .video-section {
+                            margin: 10px auto;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-radius: 10px;
+                            flex-direction: column;
+                        }
+
+                        .video-section .sub_section_heading,
+                        .card_heading,
+                        .numbersHeading,
+                        .heading,
+                        .surgery_QA .surgery_FQA_box .section_heading {
+                            color: #00263E !important;
+                            font-size: 24px !important;
+                            font-weight: 600;
+                        }
+
+                        .video-section .sub_section_heading {
+                            margin-top: 50px;
+                            margin-bottom: 30px;
+                            color: #505257 !important;
+                            text-align: center;
+                            font-family: var(--new_font_family) !important;
+                            font-size: 30px !important;
+                            line-height: 30px !important;
+                            font-weight: 700;
+                            font-size: 22px;
+                            letter-spacing: 0;
+                            color: #505257;
+                            opacity: 1;
+                            padding-top: 0;
+                        }
+
+                        .video-section .video-box {
+                            flex-basis: 100%;
+                            height: 100%;
+                            width: 100%;
+                            margin: 50px auto;
+                            padding: 0 15px;
+                            aspect-ratio: 16/9;
+                            max-width: 600px;
+                        }
+
+                        .video-box iframe {
+                            height: 100%;
+                            width: 100%;
+                            border-radius: 4px;
+                        }
+
+                        @media screen and (max-width: 768px) {
+
+                            .specialistHeading,
+                            .video-section .sub_section_heading,
+                            .card_heading,
+                            .numbersHeading,
+                            .heading,
+                            .surgery_QA .surgery_FQA_box .section_heading {
+                                font-size: 20px !important;
+                            }
+
+                            .specialHeading {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .review_desc {
+                            line-height: 26px;
+                        }
+
+                        .review_Card {
+                            overflow-y: hidden;
+                            background: no-repeat padding-box #fff;
+                            box-shadow: 0 3px 10px #00000014;
+                            border-radius: 10px;
+                            opacity: 1;
+                            position: relative;
+                            border: 1px solid #dbdbdb;
+                            width: 90%;
+                            height: 15em;
+                            margin: 0 auto;
+                        }
+
+                        .upper {
+                            display: flex;
+                            flex: 1 1 auto;
+                            margin: 0 auto;
+                            padding-left: 10px;
+                            justify-content: space-between;
+                            padding-top: 2rem
+                        }
+
+                        .profile_img {
+                            display: inline-block;
+                            width: 5em;
+                            height: 5em;
+                            border: 6px solid #fff;
+                            margin-right: 20px;
+                            background-color: #00263e;
+                            color: #fff;
+                            border-radius: 40px
+                        }
+
+                        .initial {
+                            display: flex;
+                            justify-content: center;
+                            font-size: 24px;
+                            align-items: center;
+                            height: 100%;
+                            color: #fff;
+                            font-weight: 600
+                        }
+
+                        .reviewCard_header {
+                            flex: 1 1 auto
+                        }
+
+                        .header_container {
+                            display: flex;
+                            flex-direction: column;
+                            padding-top: 1rem
+                        }
+
+                        .review_heading {
+                            font-weight: 700;
+                            color: #00263e;
+                            font-size: 16px
+                        }
+
+                        .review_card_font {
+                            font-size: 14px
+                        }
+
+                        .color_grey {
+                            color: #505257
+                        }
+
+                        .review_Content {
+                            height: auto;
+                            max-height: 98px;
+                            font-weight: 400;
+                            overflow-y: auto;
+                            padding: 0 7px;
+                            text-align: left;
+                            font-size: 14px;
+                            margin-bottom: 0.4em
+                        }
+
+                        @media only screen and (max-width:768px) {
+                            .review_Card {
+                                width: 90%;
+                                margin: 20px auto
+                            }
+                        }
+
+                        .review_Content::-webkit-scrollbar {
+                            display: none
+                        }
+                        

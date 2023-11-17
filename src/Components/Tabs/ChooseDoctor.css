@@ -1,0 +1,103 @@
+
+.choose_doctor_container {
+    width: 60rem;
+    height: 50rem;
+    border-radius: 37px;
+    border: 1px solid rgba(41, 41, 41, 0.15);
+    background: var(--White, #f2f3f2);
+    box-shadow: 6px 6px 15px 0px rgba(206, 207, 206, 0.9),
+        -6px -6px 12px 0px rgba(255, 255, 255, 0.9),
+        6px -6px 12px 0px rgba(206, 207, 206, 0.2),
+        -6px 6px 12px 0px rgba(206, 207, 206, 0.2),
+        -1px -1px 2px 0px rgba(206, 207, 206, 0.5) inset,
+        1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 24rem;
+    margin-top: 2rem;
+}
+
+.choose_doctor_container button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    /* Set your preferred button color */
+    color: #ffffff;
+    /* Set your preferred text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.choose_doctor_container button:hover {
+    background-color: #2980b9;
+    /* Change the button color on hover */
+}
+
+.spl_btn{
+}
+
+
+.choose_doctor_container h3 {
+    font-size: 24px;
+    margin: 40px 0 20px;
+        /* Adjust the top and bottom margins as needed */
+        text-align: center;
+        /* Center the text horizontally */
+}
+
+
+
+.choose_doctor_container span {
+    font-size: 14px;
+    color: #555555;
+    /* Set your preferred text color */
+}
+
+.icon_box{
+    margin-top: 40%;
+}
+
+.icon{
+    font-size:5rem;
+}
+
+
+.icon_box {
+  text-align: center; 
+  border-radius: 50%; 
+  border: 2px solid white; 
+  width: 80px; 
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.icon {
+  font-size: 2em; 
+  color: #ffffff; 
+  
+}
+
+.spl_doctor{
+        background-image: url('../../Assets/about_assets/bgs.jpg');
+            /* background-color: black; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: -100px center;
+}
+
+.ord_doctor{
+            background-image: url('../../Assets/about_assets/dia.jpg');
+                /* background-color: black; */
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: -400px center;
+}

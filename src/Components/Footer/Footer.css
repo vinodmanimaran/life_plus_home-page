@@ -1,0 +1,112 @@
+.footer-conatiner {
+  margin-left:2%;
+  height: 24rem;
+  margin-top: 2rem;
+  border-radius: 30px 30px 0px 0px;
+  background: #0f234f;
+  box-shadow: 3px 3px 8px 0px rgba(0, 61, 71, 0.9),
+    -3px -3px 6px 0px rgba(2, 243, 255, 0.9),
+    3px -3px 6px 0px rgba(0, 61, 71, 0.2), -3px 3px 6px 0px rgba(0, 61, 71, 0.2),
+    -1px -1px 2px 0px rgba(0, 61, 71, 0.5) inset,
+    1px 1px 2px 0px rgba(2, 243, 255, 0.3) inset;
+}
+
+.first-section {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.first-section ul {
+  list-style: none;
+  margin-top: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.first-section ul li {
+  margin-top: 1rem;
+}
+
+.img-icon-footer {
+  width: 10rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.img-icon-footer img {
+  width: 160px;
+  height: 70px;
+}
+
+.second-section {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.second-section ul {
+  list-style: none;
+  margin-top: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.second-section ul li {
+  margin-top: 0.3rem;
+}
+.second-section ul li h5 {
+  font-weight: bold;
+  font-style: normal;
+}
+.third-section {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.third-section ul {
+  list-style: none;
+  margin-top: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.third-section ul li {
+  margin-top: 0.3rem;
+}
+.third-section ul li h5 {
+  font-weight: bold;
+  font-style: normal;
+}
+.fourth-section {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.fourth-section ul {
+  list-style: none;
+  margin-top: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.fourth-section ul li h5 {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.fourth-section ul li {
+  margin-top: 0.5rem;
+}
+.g-map {
+  width: 17rem;
+  height: 8rem;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.fourth-section ul li button {
+  border-radius: 10px;
+  background: var(--RED, #c51c22);
+  color: #fff;
+  border-style: none;
+  height: 2.4rem;
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .footer-conatiner {
+    height: max-content;
+  }
+}

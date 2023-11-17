@@ -1,0 +1,54 @@
+/* Accordion Container */
+.accordion {
+    margin-bottom: 10px;
+    border: none;
+    /* Remove borders */
+    border-bottom: 1px solid #ccc;
+    /* Add a bottom border as a divider */
+    position: relative;
+    width: 600px;
+    margin-left: 40%;
+}
+
+main{
+    margin: 50px;
+}
+
+/* Header Styles */
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+/* Arrow Icon */
+.accordion .arrow {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.accordion.expanded .arrow {
+    transform: rotate(180deg);
+}
+
+/* Divider Line Styles */
+.accordion-divider {
+    border: none;
+    /* Remove border from hr element */
+    border-top: 1px solid #ccc;
+    /* Add a top border as a divider */
+    margin: 0;
+}
+
+/* Content Styles */
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+.accordion.expanded .accordion-content {
+    display: block;
+}
+

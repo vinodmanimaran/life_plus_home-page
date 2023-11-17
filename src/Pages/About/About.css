@@ -1,0 +1,298 @@
+*{
+    padding:0;
+    border: 0;
+    margin:0;
+}
+.header {
+  position: relative;
+  width: 100%;
+  margin: 25px;
+    border-radius: 25px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.header_img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 25px;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 50%;
+  margin-left: 50%;
+  color: #ffffff; 
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+background-color: rgba(0, 0, 0, 0.5);
+background: linear-gradient(to right, #ff8a00, #e52e71);
+animation: fadeInUp 1s ease-in-out;
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
+}
+
+.overlay_header_title {
+  font-size: 24px;
+  margin: 5px;
+}
+
+.overlay_header_description {
+  font-size: 18px;
+  margin: 5px;
+  color: white;
+}
+
+
+
+
+.value-item {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    grid-template-rows: repeat(3, 1fr);
+    /* 3 rows */
+    gap: 10px;
+}
+
+.grid-item {
+   
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+}
+.value-item{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+.value_name{
+    margin: 10px;
+    font-size: medium;
+}
+
+.value_icon{
+    width: 200px;
+}
+
+
+.team{
+    margin:50px;
+    padding:20px;
+}
+.team_heading{
+    text-align:center;
+    padding:10px;
+    font-weight: bolder;
+}
+.team_img{
+    border-radius: 15px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.team_content{
+text-align: center;
+font-size: medium;
+margin-top: 25%;
+}
+
+.admin_heading{
+text-align: center;
+padding: 10px;
+margin: 10px;
+}
+.admin_wrapper{
+    margin-right:8rem;
+}
+.admin_image{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.admin_name{
+font-weight: bolder;
+margin: 20px;
+}
+
+.admin_postion{
+ margin: 20px;
+}
+
+.founder_title{
+    text-align:center;
+    padding:100px;
+}
+
+.founder_content{
+margin-left: 5%;
+float: right;
+}
+
+.founder_name{
+    font-weight: bolder;
+    margin: 10px;
+    padding: 15px;
+        margin-left: 2%;
+}
+
+.founder_data{
+    margin-top: 10%;
+}
+
+.founder_position{
+    font-weight: bold;
+    margin-right: 50%;
+}
+.position_1{
+    margin-left: -5%;
+}
+
+.admin_position{
+    font-weight: 50;
+}
+.founder_image{
+    margin-left:70%;
+    margin-top: -15%;
+    width:150%;
+    border-radius:15px;
+}
+
+
+.parent-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    grid-template-rows: repeat(3, 1fr);
+    /* 3 rows */
+    gap: 10px;
+    /* Adjust the gap as needed */
+}
+
+.child-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-card {
+    width: 100%;
+    /* Adjust the card width as needed */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.value-card .value {
+    padding: 20px;
+}
+
+.value_name {
+    margin-top: 10px;
+}
+
+
+.accordion_value_heading {
+    text-align: center;
+    margin: 80px;
+    white-space: nowrap;
+}
+
+.acc{
+    margin: 50px;
+    margin-right: 90%;
+}
+
+.excellence_img{
+    width: 80%;
+    margin-top: 10%;
+}
+.core_value_heading {
+    color: white;
+    padding: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    text-align:left ;
+}
+
+.core_value_img {
+    margin-right: 40%;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 75%;
+}
+
+.core_value_icon_heading {
+    text-align: center;
+    padding: 50px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: -5%;
+}
+
+.main-card {
+    margin-right: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    width:auto;
+    height: auto;
+
+}
+
+.text-center{
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: -10%;
+    white-space: nowrap;
+}
+
+.core_value_parent {
+    padding-bottom: 50px;
+    margin: 50px;
+    border-radius: 20px;
+}
+

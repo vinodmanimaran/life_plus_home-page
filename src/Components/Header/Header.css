@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #0f234f;
+  
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: smaller;
+  width: 2500px;
+
+}
+
+.utilities{
+  margin-left: 85%;
+  /* margin-top: -40px; */
+  
+}
+
+.mobile-header {
+  flex-direction: column;
+}
+
+.logo {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: -20px;
+}
+.logo img {
+  width: 180px;
+  height: 65px;
+}
+
+.mobile-menu {
+  display: none; /* Hidden by default on desktop */
+}
+
+/* .desktop-menu {
+  list-style: none;
+  display: flex;
+} */
+
+/* .desktop-menu li {
+  margin-right: 16px;
+} */
+
+.book-appoinmnet {
+  border-radius: 10px;
+  background: var(--RED, #c51c22);
+  /* White */
+  box-shadow: 3px 3px 8px 0px rgba(56, 153, 243, 0.9),
+    -3px -3px 6px 0px rgba(129, 108, 245, 0.9),
+    3px -3px 6px 0px rgba(174, 175, 174, 0.2),
+    -3px 3px 6px 0px rgba(174, 175, 174, 0.2),
+    -1px -1px 2px 0px rgba(174, 175, 174, 0.5) inset,
+    1px 1px 2px 0px rgba(255, 255, 255, 0.3) inset;
+  color: #fff;
+  border-style: none;
+  height: 2.2rem;
+  width: 5rem;
+  margin-left:-50px;
+  margin: 2px;
+}
+
+/* Add media queries to control mobile menu visibility */
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none; /* Hide desktop menu on mobile */
+  }
+  .mobile-menu {
+    display: block;
+    margin-left: 540%;
+    margin-top: -38%;
+  }
+  .logo img {
+    width: 100px;
+    height: 45px;
+  }
+}
+
+
+
+.desktop-menu{
+  display: flex;
+  list-style:none;
+  flex-direction: row;
+  margin: 5%;
+  padding: 5px;
+}
+
+.utilities-container{
+  margin-left: 5px;
+  
+}
+

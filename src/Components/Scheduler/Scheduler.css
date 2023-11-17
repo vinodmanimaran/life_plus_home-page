@@ -1,0 +1,107 @@
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.scheduler-container {
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+}
+
+
+.scheduler-title {
+    font-size: 24px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.date-slider-container {
+    margin-bottom: 20px;
+}
+
+.date-slider-row {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.date-item {
+    cursor: pointer;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.date-item:hover {
+    background-color: #f0f0f0;
+}
+
+.date-item.selected {
+    background-color: red;
+    color: #fff;
+}
+
+.date-label {
+    font-size: 18px;
+}
+
+.slots-count {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+}
+
+.selected-date-container {
+    margin-bottom: 20px;
+}
+
+.arrow-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+}
+
+.arrow-icon {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+.time-slot-btn{
+margin:15px;
+}
+.time-slot-col {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.time-slot-btn {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.time_slot_morn{
+    margin: 30px;
+}
+
+.morning{
+display:flex;
+flex-direction: row;
+}
+.evening {
+    display: flex;
+    flex-direction: row;
+}
+.time_slot_even {
+    margin: 30px;
+}
+.time-slot-btn:hover{
+background: #0f234f;}
