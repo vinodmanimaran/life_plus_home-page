@@ -42,7 +42,7 @@ function App () {
             <Route path="/pharmacy" element={<Pharmacy />} />
             <Route path="/receipt" element={<Receipt />} />
 
-            <Route path="/bookappoinment" element={<BookAppoinment />} />
+            <Route path="/bookappointment" element={<BookAppoinment />} />
           </Routes>
         </main>
       </Router>

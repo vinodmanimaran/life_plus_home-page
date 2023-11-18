@@ -39,7 +39,7 @@ const Whyus = () => {
   }, []);
 
   return (
-    <div style={{fontFamily: 'basic-sans'}}>
+    <div style={{fontFamily: 'basic-sans',width:"1075px",marginLeft:"-10%"}}>
       <div
         style={{
           display: 'grid',
@@ -193,7 +193,7 @@ fontSize:"3rem",
                 style={{
                   color: '#df2e26',
                   fontWeight: 'bold',
-                  fontSize: "2rem"
+                  fontSize: "3rem"
                 }}>
                 03.
               </div>
@@ -221,7 +221,7 @@ fontSize:"3rem",
                 style={{
                   color: '#df2e26',
                   fontWeight: 'bold',
-                  fontSize:"2rem",
+                  fontSize:"3rem",
 
                 }}
               >

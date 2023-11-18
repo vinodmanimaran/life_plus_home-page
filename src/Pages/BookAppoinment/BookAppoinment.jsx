@@ -52,7 +52,7 @@ const BookAppoinment = () => {
                   </h5>
                 </div>
               </Col>
-              <Col className="booking-inputs" sm={12} md={6}>
+              <Col className="booking-inputs" sm={12} md={6} style={{marginLeft:"40%"}}>
                 <div className="booking-close-btn">
                   <AiFillCloseCircle />
                 </div>
@@ -126,9 +126,24 @@ const BookAppoinment = () => {
                     onChange={handleInputChange}
                   /> */}
                 </div>
-                <div className="book-now">
-                  <button onClick={handleFormSubmit}>Book Now</button>
-                </div>
+      <div style={{ textAlign: 'center', marginTop: '20px',marginLeft:"-60%" }} className="book-now">
+        <button
+          style={{
+            backgroundColor: 'red',
+            color: '#fff',
+            padding: '10px 20px',
+            borderRadius: '5px',
+            border: 'none',
+                      cursor: 'pointer',
+          }}
+          onClick={() => {
+            navigate('/doctors');
+          }}
+        >
+          Next
+        </button>
+      </div>
+
               </Col>
             </Row>
           </div>

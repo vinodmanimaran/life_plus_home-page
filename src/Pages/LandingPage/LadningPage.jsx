@@ -62,8 +62,8 @@ const handleClose3 = () => {
 
   return (
     <>
-      <div className='main' style={{width:"1065px",marginLeft:"-7%"}}>
-        <div className='header'>
+      <div className='main' style={{marginLeft:"-7%"}}>
+        <div className='header' style={{width:"1060px"}}>
           <Header />
         </div>
 
@@ -79,7 +79,7 @@ const handleClose3 = () => {
       <Col className="how-can" sm={12} md={2}>
         <h3 style={{whiteSpace:"nowrap",fontSize:"16px"}}>How can I help you?</h3>
         <div className="btn-how-can">
-          <Link to="/bookappoinment" style={{textDecoration: 'none'}}>
+          <Link to="/bookappointment" style={{textDecoration: 'none'}}>
             <button>Book appointment</button>
           </Link>
         </div>
@@ -460,13 +460,14 @@ const handleClose3 = () => {
 
 
         {/* Google review */}
-        <section style={{margin:"15px"}}>
+        <section style={{marginLeft:"-8%"}}>
           <Container>
             <Row>
-              <div className='symptoms-heading'>
+              <div className='symptoms-heading' style={{textAlign:"center"}}>
                 <h2>Our patient love us</h2>
               </div>
-              <Col className='google-review-container'>
+              <div>    
+              <Col className='google-review-container' >
                 <div className='review-box' >
                   <Row>
                     <Col sm={3} md={3}>
@@ -627,7 +628,7 @@ const handleClose3 = () => {
                     </Col>
                   </Row>
                 </div>
-              </Col>
+              </Col> </div>
             </Row>
             <Container>
               <Row>
@@ -651,7 +652,7 @@ const handleClose3 = () => {
                 <div className='faq-heading'>
                   <h2>Frequently Asked Questions</h2>
                 </div>
-    <div className='faq-input-container' style={{marginLeft:"10%"}}>
+    <div className='faq-input-container faq-conatiner' style={{marginLeft:"10%"}}>
       {open === false ? (
         <div className='faq-input'>
           <p>What are piles in females?</p>{' '}

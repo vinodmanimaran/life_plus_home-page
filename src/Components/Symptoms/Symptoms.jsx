@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Container, Col, Row} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import Symptoms1 from '../../Assets/Images/Symptoms1.png';
 import Symptoms2 from '../../Assets/Images/Symptoms2.png';
 import Symptoms3 from '../../Assets/Images/Symptoms3.png';
@@ -15,7 +15,7 @@ import Symptoms12 from '../../Assets/Images/Symptoms12.png';
 import Symptoms13 from '../../Assets/Images/Symptoms13.png';
 import Symptoms14 from '../../Assets/Images/Symptoms14.png';
 import Symptoms15 from '../../Assets/Images/Symptoms15.png';
-import Symptoms16 from '../../Assets/Images/Symptoms16.png';
+// import Symptoms16 from '../../Assets/Images/Symptoms16.png';
 
 const Symptoms = () => {
   const [showAllSymptoms, setShowAllSymptoms] = useState (false);
@@ -36,38 +36,60 @@ const Symptoms = () => {
     Symptoms13,
     Symptoms14,
     Symptoms15,
-    Symptoms16,
+    // Symptoms16,
   ];
+
+  const symptomsContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridTemplateRows: 'repeat(4, 1fr)',
+    gap: '3px',
+    padding:"10px",
+    width:"700px",
+    height: "30px",
+    justifyContent:"center",
+    placeItems:"center",
+    marginLeft:"15%"
+  };
 
   const displayedSymptoms = showAllSymptoms
     ? allSymptoms
-    : allSymptoms.slice (0, 8);
+    : allSymptoms.slice (0, 9);
 
   return (
-    <Container style={{margin: '50px',marginLeft:"10%"}}>
-      <Row>
-        <Col sm={12} md={12}>
-          <div className="symptoms-heading">
-            <h2>Choose Your Symptoms</h2>
-          </div>
-          <div className="Symptoms-Container">
-            {displayedSymptoms.map ((symptom, index) => (
-              <Col className="Symptoms" key={index}>
-                <img src={symptom} alt={`Symptom ${index + 1}`} className="symptom_img"/>
-              </Col>
-            ))}
-          </div>
-        </Col>
-      </Row>
+    <>
+      <Container style={{ margin: '50px' }}>
+        <Row>
+          <Col sm={12} md={12}>
+            <div className="symptoms-heading">
+              <h2>Choose Your Symptoms</h2>
+            </div>
+            <div className="Symptoms-Container" style={symptomsContainerStyle}>
+              {displayedSymptoms.map((symptom, index) => (
+                <Col key={index} className="Symptoms">
+                  <img
+                    src={symptom}
+                    alt={`Symptom ${index + 1}`}
+                    className="symptom_img"
+                  />
+                </Col>
+              ))}
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
-      <Row>
-        <Col className="view">
-          <button onClick={() => setShowAllSymptoms (!showAllSymptoms)} className="view_more">
-            {showAllSymptoms ? 'View Less' : 'View More'}
-          </button>
-        </Col>
-      </Row>
-    </Container>
+      <div className="view">
+        <button
+          onClick={() => setShowAllSymptoms(!showAllSymptoms)}
+          className="view_more view_all"
+          style={{ marginTop: '35%'}}
+        >
+          {showAllSymptoms ? 'View Less' : 'View More'}
+        </button>
+      </div>
+    </>
+
   );
 };
 

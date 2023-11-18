@@ -50,14 +50,13 @@ const DoctorSlider = () => {
 
   // Styles for the "Book Appointment" button
   const bookAppointmentButtonStyle = {
-    backgroundColor: '#e74c3c', // Red background color
-    color: '#fff', // Text color
-    cursor: 'pointer',
+    backgroundColor: '#e74c3c', 
+    color: '#fff', 
     padding: '10px 20px',
     border: 'none',
     borderRadius: '5px',
     fontSize: '16px',
-    marginLeft: '-55%',
+    marginLeft: '-1%',
     transition: 'background-color 0.3s, color 0.3s',
   };
 
@@ -69,7 +68,7 @@ const DoctorSlider = () => {
     border: 'none',
     borderRadius: '5px',
     fontSize: '16px',
-    marginLeft: '-40%',
+    marginLeft: '6%',
     transition: 'background-color 0.3s, color 0.3s',
   };
 
@@ -83,7 +82,7 @@ const DoctorSlider = () => {
           <div className="content-all" style={{marginLeft: '10%'}}>
             <OfferSlider />
           </div>
-          <div className="record-btn mx-auto cta-btns" >
+          <div  >
             <button
               onClick={() => {
                 var phoneNumber = 'tel:9993331110';
@@ -95,11 +94,7 @@ const DoctorSlider = () => {
               <FaPhone style={{marginRight: '5px'}} />
               Contact us +91 9844447766
             </button>
-
             <button
-              onClick={() => {
-                navigate ('/bookappointment'); 
-              }}
               style={bookAppointmentButtonStyle}
               className="cta-btn"
             >
